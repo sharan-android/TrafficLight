@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ViewMatchParent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".views.home.HomeActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_red"
+        style="@style/ViewWrapContent"
+        android:src="@drawable/traffic_light_circle" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_yellow"
+        style="@style/ViewWrapContent"
+        android:layout_marginTop="@dimen/margin_small"
+        android:src="@drawable/traffic_light_circle" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_green"
+        style="@style/ViewWrapContent"
+        android:layout_marginTop="@dimen/margin_small"
+        android:src="@drawable/traffic_light_circle" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
